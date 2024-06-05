@@ -65,7 +65,7 @@ From the mysql commandline `mysql>`. Run the following.
 ~~~
 use metastore;
 show tables;
-    
+~~~    
 
 # Setup Airflow
 
