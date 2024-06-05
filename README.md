@@ -8,8 +8,6 @@
 ## Spark framework
     SPARK_HOME (must be 3x)
 
-## Start application by running:
-    ./run.sh start
 
 ## Initialize Hive metastore
     ./run.sh hiveInit
@@ -94,3 +92,6 @@ echo -e "AIRFLOW_IMAGE_NAME=newfrontdocker/apache-airflow-spark:2.1.0" >> .env
 echo -e "SPARK_HOME=${SPARK_HOME}" >> .env
 echo -e "AIRFLOW_UID=$(id -u)\nAIRFLOW_GID=0" > .env
 ~~~
+
+## Start application by running:
+    ./run.sh start
