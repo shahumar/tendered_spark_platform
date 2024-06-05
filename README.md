@@ -73,17 +73,23 @@ show tables;
 You must run this `once` before you can get started. This is the initial bootstrap process. This process will download all of the required Docker container images, and run the initialization sequence required to run Airflow.
 
 ~~~
+
+~~~
+
 ./run.sh airflowInit
 ~~~
 
+~~~
+
 ## Running Basic Airflow
-~~~
-docker-compose up
-~~~
 
 **Build the Local Airflow Environment with Spark Providers and Java11**
 ~~~
+~~~
+
 ./run.sh buildAirflow
+~~~
+
 ~~~
 
 
